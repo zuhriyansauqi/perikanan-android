@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "320609847994",
+    "project_id": "perikanan-efishery",
+    "storage_bucket": "perikanan-efishery.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:320609847994:android:139f367d89c1b8c08dd083",
+        "android_client_info": {
+          "package_name": "com.zuhriyansauqi.efishery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "320609847994-uglcjtl5ateecaf0dag3cp55jfdsrtrq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zuhriyansauqi.efishery",
+            "certificate_hash": "e03b94bb2008056918d4e493b4efb1a86279ed7f"
+          }
+        },
+        {
+          "client_id": "320609847994-g2uc6u5f1f65ciibvba3u3cqgongf8vo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsjzCo2qIEQVFLHbLI_WqCHTj5VJcZlKU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "320609847994-g2uc6u5f1f65ciibvba3u3cqgongf8vo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
