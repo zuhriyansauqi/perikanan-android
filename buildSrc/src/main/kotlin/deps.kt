@@ -7,7 +7,7 @@ import org.gradle.plugin.use.PluginDependencySpec
 
 const val androidVersion = "7.3.1"
 const val ktlintVersion = "0.46.1"
-const val kotlinVersion = "1.7.21"
+const val kotlinVersion = "1.7.20"
 const val googleServiceVersion = "4.3.13"
 const val kotlinCompilerExtVersion = "1.3.2"
 
