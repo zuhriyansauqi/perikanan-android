@@ -90,7 +90,6 @@ fun EfisheryTheme(
 
   MaterialTheme(
     colorScheme = colorSchemecolors,
-    typography = EfisheryTyphograpy,
   ) {
     SetupStatusBarColor()
     content()
