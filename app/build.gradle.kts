@@ -50,6 +50,8 @@ android {
 }
 
 dependencies {
+  implementation(data)
+  implementation(domain)
   implementation(core)
   implementation(coreUi)
   implementation(featureMain)

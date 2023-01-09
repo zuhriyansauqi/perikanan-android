@@ -43,8 +43,24 @@ android {
 }
 
 dependencies {
+  implementation(domain)
+  implementation(core)
+
   implementation(deps.androidx.coreKtx)
+  implementation(deps.coroutines.core)
   implementation(deps.timber)
 
+  implementation(deps.koin.core)
+
+  implementation(platform(deps.squareup.bom))
+
+  implementation(deps.squareup.retrofit)
+  implementation(deps.squareup.moshiKotlin)
+  implementation(deps.squareup.converterMoshi)
+  implementation(deps.squareup.loggingInterceptor)
+  testImplementation(deps.squareup.okHttp)
+
   addUnitTest()
+  testImplementation(deps.test.squareup.mockWebServer)
+  testImplementation(deps.test.json)
 }
