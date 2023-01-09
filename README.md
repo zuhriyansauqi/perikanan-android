@@ -24,7 +24,7 @@ An android app about fishery using Jetpack Compose
 2. Sync dependencies with Gradle
 3. Run to your device
 
-## Design Pattern 
+## Project Structure
 This project structured into modules:
 
 - **app**: application, initializer, navigation graph, etc.
