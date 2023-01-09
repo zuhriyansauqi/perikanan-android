@@ -49,11 +49,19 @@ android {
 }
 
 dependencies {
+  implementation(domain)
+  implementation(core)
   implementation(coreUi)
 
   implementation(deps.androidx.coreKtx)
+  implementation(deps.androidx.paging)
+  implementation(deps.androidx.pagingCompose)
+  implementation(deps.coroutines.android)
+  implementation(deps.koin.android)
+  implementation(deps.koin.compose)
 
   addCompose()
+  implementation(deps.icons.feather)
 
   implementation(deps.timber)
 

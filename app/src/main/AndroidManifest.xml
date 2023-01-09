@@ -23,6 +23,10 @@
                 android:name="com.zuhriyansauqi.efishery.initializer.TimberInitializer"
                 android:value="androidx.startup" />
 
+            <meta-data
+                android:name="com.zuhriyansauqi.efishery.initializer.FirebaseInitializer"
+                android:value="androidx.startup" />
+
         </provider>
     </application>
 

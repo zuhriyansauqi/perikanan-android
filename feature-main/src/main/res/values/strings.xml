@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="toolbar_title">Perikanan Efishery</string>
+
+    <!-- Buttons -->
+    <string name="edit_button">Ubah</string>
+    <string name="delete_button">Hapus</string>
+    <string name="close_button">Tutup</string>
+
+    <!-- Alerts -->
+    <string name="delete_alert_title">Hapus Data</string>
+    <string name="delete_alert_subtitle">Data perikanan akan dihapus, Anda yakin?</string>
+</resources>
