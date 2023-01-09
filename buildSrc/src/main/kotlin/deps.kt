@@ -59,6 +59,7 @@ object deps {
 
     const val activities = "androidx.activity:activity-compose:1.5.1"
     const val viewModels = "androidx.lifecycle:lifecycle-viewmodel-compose:2.5.1"
+    const val navigation = "androidx.navigation:navigation-compose:2.5.3"
   }
 
   object coroutines {
@@ -175,4 +176,5 @@ fun DependencyHandler.addCompose() {
   add(configName, deps.compose.material3WindowSize)
   add(configName, deps.compose.activities)
   add(configName, deps.compose.viewModels)
+  add(configName, deps.compose.navigation)
 }

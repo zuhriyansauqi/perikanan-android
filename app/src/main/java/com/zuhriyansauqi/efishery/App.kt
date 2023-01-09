@@ -1,6 +1,7 @@
 package com.zuhriyansauqi.efishery
 
 import android.app.Application
+import androidx.compose.material3.ExperimentalMaterial3Api
 import com.zuhriyansauqi.efishery.core.coreModule
 import com.zuhriyansauqi.efishery.data.dataModule
 import com.zuhriyansauqi.efishery.domain.domainModule
@@ -10,6 +11,7 @@ import org.koin.android.ext.koin.androidLogger
 import org.koin.core.context.startKoin
 import org.koin.core.logger.Level
 
+@ExperimentalMaterial3Api
 @ExperimentalStdlibApi
 @JvmField
 val allModules = listOf(
@@ -19,6 +21,7 @@ val allModules = listOf(
   mainModule,
 )
 
+@ExperimentalMaterial3Api
 @ExperimentalStdlibApi
 class App : Application() {
   override fun onCreate() {

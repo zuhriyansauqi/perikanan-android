@@ -9,6 +9,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import androidx.navigation.NavController
+import androidx.navigation.compose.rememberNavController
 import androidx.paging.compose.items
 import com.zuhriyansauqi.efishery.core_ui.ui.theme.EfisheryTheme
 import com.zuhriyansauqi.efishery.ui.main.components.FisheryCard
@@ -19,8 +21,11 @@ import org.koin.androidx.compose.koinViewModel
 @SuppressLint("UnusedMaterial3ScaffoldPaddingParameter")
 @ExperimentalMaterial3Api
 @Composable
-fun MainScreen(vm: MainVM = koinViewModel()) {
-  val fisheries = vm.fisheries()
+fun MainScreen(
+  navController: NavController = rememberNavController(),
+  viewModel: MainVM = koinViewModel()
+) {
+  val fisheries = viewModel.fisheries()
 
   Scaffold(
     topBar = {
@@ -55,7 +60,7 @@ fun MainScreen(vm: MainVM = koinViewModel()) {
                 item = fishery,
                 onDeleteClick = { currentFishery ->
                   currentFishery.uuid?.run {
-                    vm.delete(this)
+                    viewModel.delete(this)
                     fisheries.refresh()
                   }
                 }
